@@ -1,0 +1,196 @@
+body{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;		/*扩展图片来填满元素(保持像素的长宽比)*/
+    background-repeat: no-repeat;
+    background-position: 0 0;		/*指定的是图片左上角相对于元素左上角的位置*/
+    background-attachment: fixed;	/*页面向下滚动时，背景要待在它原来的位置*/
+    background-origin: border-box;    /*以边框为原点开始计算 background-position*/
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: none;
+}
+.clearfix{
+    display: inline-block;
+   
+    clear:both;
+}
+.hidden{
+    display: none;
+}
+
+
+
+/* ===================== 导航栏部分 ======================== */
+#navbar{
+	width:100%;
+	height: 48px;
+	background-color: #202020;
+	border:1px solid #101010;
+	position: fixed;
+	margin:0 auto;
+	box-sizing: border-box;
+	z-index: 99;
+}
+/*logo content*/
+#nav-header{
+	display: inline-block;
+}
+#nav-header a{
+	font-size: 24px;
+	font-weight: 400;
+	color: #33CCFF;
+	line-height: 48px;
+	padding-left: 60px;
+	text-decoration: none;
+}
+/*menu button*/
+#menu-button{
+	box-sizing: border-box;
+	float:right;
+	border:1px solid #333;
+	border-radius: 5px;
+	color: #fff;
+	padding: 8px 10px 4px;
+	margin-top: 5px;
+	margin-right: 18px;
+	display: none;
+}
+#menu-button:hover{
+	cursor: pointer;
+	background-color: #333;
+}
+#menu-button span{
+	display: block;
+	background-color: #fff;
+	width:1.6rem;
+	height: 3px;
+	border-radius: 1px;
+	margin-bottom: 5px;
+}
+/*menu list*/
+#menu-list{
+	float: right;
+	margin-right: 24px;
+}
+#menu-list li{
+	display: inline-block;
+	float: left;
+}
+#menu-list li a{
+	color: #aaa;
+	font-size: 14px;
+	display: inline-block;
+	line-height: 48px;
+	box-sizing: border-box;
+	padding:0 20px;
+	text-decoration: none;
+	transition: color 0.2s ease-in;
+}
+#menu-list li a:hover{
+	color:#fff;
+}
+#menu-list li.active a{
+	background-color: #000;
+}
+
+/*footer content*/
+footer{
+	width: 100%;
+	color: rgba(255,255,255,0.6);
+	background-color: #000;
+	position: relative;
+	padding: 60px 0 0px;
+	box-sizing: border-box;
+}
+footer .contact_info{
+	width: 248px;
+	height: 40px;
+	margin: 0 auto;
+}
+footer .contact_info .list{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-right: 48px;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+}
+
+footer .contact_info .list i{
+	display: block;
+	width: 32px;
+	height: 32px;
+	position: relative;
+}
+footer .contact_info .fa_wechart{
+	background-image: url(../images/fa/wechart_log.png);
+	background-size: 32px 32px;
+}
+footer .contact_info .fa_qq{
+	background-image: url(../images/fa/QQ.png);
+	background-size: 32px 32px;
+}
+footer .contact_info .fa_facebook{
+	background-image: url(../images/fa/facebook.png);
+	background-size: 32px 32px;
+}
+footer .contact_info i::after{
+	content: '';
+	display: block;
+	width: 120px;
+	height: 120px;
+	background-size: 120px 120px;
+	position: absolute;
+	top: -110px;
+	z-index: 2;
+	opacity: 0;
+	transition: all 0.8s ease-out;
+}
+footer .contact_info .fa_wechart::after{
+	left: -50px;
+	background-image: url(../images/fa/QRCode_wechart.png);	
+}
+footer .contact_info .fa_qq::after{
+	left: -50px;
+	background-image: url(../images/fa/QRCode_qq.jpg);	
+}
+footer .contact_info .fa_facebook::after{
+	left: -50px;
+	background-image: url(../images/fa/QRCode_facebook.png);	
+}
+footer .contact_info .list_wechart:hover .fa_wechart::after{
+	top: -140px;
+	opacity: 1;
+}
+footer .contact_info .list_qq:hover .fa_qq::after{
+	top: -140px;
+	opacity: 1;
+}
+footer .contact_info .list_facebook:hover .fa_facebook::after{
+	top: -140px;
+	opacity: 1;
+}
+footer .contact_info2{
+	width: 80%;
+	margin: 18px auto;
+	font-size: 14px;
+}
+footer .contact_info2 div{
+	display: inline-block;
+	width: 30%;
+	padding: 3px 0px;
+	text-align: center;
+}
+
+footer .footer-copyright{
+	width:100%;
+	height: 60px;
+	line-height: 60px;
+	margin-top: 24px;
+	background-color: #333;
+	color: rgba(255,255,255,0.4);
+	text-align: center;
+}

@@ -1,0 +1,237 @@
+@media screen and (min-width: 750px) and (max-width: 960px) {
+
+/* =================== Home Section =========================== */
+.home-section h2{
+	padding-top: 280px;
+	/*line-height: 650px;*/
+}
+.home-section p{
+	margin: 32px auto 220px;
+}
+	/*====================== Project Section ========================*/
+
+.project-section .project-item{
+	width: 96%;
+	box-sizing: border-box;
+	margin: 42px auto 60px;
+	padding-left: 4%;
+}
+.project-section .project-item .item{
+	display: inline-block;
+	width: 46%;
+	height: 300px;
+	background-color: transparent;
+	position: relative;
+	margin-right: 5px;
+	transition: all 0.6s ease-in-out;
+}
+.project-section .item-img{
+	width:100%;
+	height: 260px;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.project-section .project-item img{
+	width:100%;
+	height: 260px;
+	transform: scale(1);
+	transition: all 0.5s ease;
+}
+
+.project-section .item a{
+	width: 100%;
+	height: 100%;
+
+}
+
+.project-section .item_caption{
+	display: inline-block;
+	width:100%;
+	height: 50px;
+	background-color: #f6f7ff; 
+}
+.project-section .item_caption p{
+	font-size: 14px;
+	color: #101010;
+	text-align: center;
+	line-height: 50px;
+	transition: all 0.6s ease;
+}
+
+.project-section .project-item .item:hover img{
+	transform: scale(1.1);
+}
+.project-section .project-item .item:hover .item_caption p{
+	color: #49C9DE;
+}
+
+.project-section .more{
+	width:120px;
+	margin: 30px auto 0px;
+}
+
+.project-section .more a{
+	display: inline-block;
+	width:115px;
+	height: 48px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 48px;
+	box-sizing: border-box;
+	border:1px solid rgba(255,255,255,0.65);
+	border-radius: 22px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+.project-section .more a:after{
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: 0;
+    width: 0;
+    height: 48px;
+    border-radius: 22px;
+    background-color: #49C9DE;
+    z-index: -1;
+    transition: all 0.4s ease-in-out;
+}
+.project-section .more:hover a:after{
+	width:115px;
+}
+
+
+
+}
+
+
+
+@media screen and (max-width: 750px) {
+
+/* =================== Home Section =========================== */
+.home-section h2{
+	padding-top: 160px;
+	/*line-height: 650px;*/
+}
+.home-section p{
+	width: 140px;
+	margin: 32px auto 150px;
+}
+
+/* ===================== Introduce Section ============================*/
+.intro-content p{
+	font-size: 16px;
+	line-height: 26px;
+	padding-left: 18px;
+	padding-right: 18px;
+}
+/* =================== Ability Section =============================== */
+.ability-section{
+	width:100%;
+	height: 1280px;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+.ability-section .section1{
+	position: relative;
+	top:0;
+	left:0;
+}
+.ability-section .section2{
+	position: relative;
+	top:320px;
+	left:0;
+}
+.ability-section .section3{
+	position: relative;
+	top:640px;
+	left:0;
+}
+.ability-section .section4{
+	position: relative;
+	top:960px;
+	left:0;
+}
+.ability-section .item{
+	width:100%;
+}
+/*====================== Project Section ========================*/
+
+
+.project-section .project-item{
+	width: 100%;
+	margin: 42px auto 40px;
+}
+.project-section .project-item .item{
+	display: inline-block;
+	width: 100%;
+	height: 320px;
+	position: relative;
+	transition: all 0.6s ease-in-out;
+}
+.project-section .item-img{
+	width:100%;
+	height: 280px;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.project-section .project-item img{
+	width:100%;
+	height: 280px;
+	transform: scale(1);
+	transition: all 0.5s ease;
+}
+
+.project-section .item a{
+	width: 100%;
+	height: 100%;
+
+}
+
+.project-section .item_caption{
+	display: inline-block;
+	width:100%;
+	height: 50px;
+	background-color: #f6f7ff; 
+}
+.project-section .item_caption p{
+	font-size: 14px;
+	color: #101010;
+	text-align: center;
+	line-height: 50px;
+	transition: all 0.6s ease;
+}
+
+.project-section .project-item .item:hover img{
+	transform: scale(1.1);
+}
+.project-section .project-item .item:hover .item_caption p{
+	color: #49C9DE;
+}
+
+.project-section .more{
+	width:120px;
+	margin: 6px auto 0px;
+}
+
+
+}
+
+
+
+
+
+
+
+/*适应更小屏幕*/
+@media screen and (max-width: 450px) {
+	/*Home Section*/
+.home-section h2{
+	font-size: 24px;
+}
+
+}

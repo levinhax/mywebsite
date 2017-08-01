@@ -1,0 +1,51 @@
+/*========================= contact section =============================*/
+.contact-section{
+	width:100%;
+	/*height: 600px;*/
+	color: #fff;
+	background-color: #002839;
+	padding-top: 50px;
+	padding-bottom: 60px;
+}
+.contact-section .contact-title{
+	margin-top: 90px;
+}
+.contact-section .contact-title h2{
+	color: #49C9DE;
+	font-size: 34px;
+	font-weight: 400;
+	text-align: center;
+}
+.contact-section .contact-content{
+	margin: 105px auto 0;
+	width: 80%;
+	height: 200px;
+}
+.contact-section .contact-content .info{
+	width:33%;
+	text-align: center;
+	float: left;
+}
+.contact-section .contact-content .fa{
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	background-size: 42px 42px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.contact-section .contact-content .fa_tel{
+	background-image: url(../images/fa/telephone.png);
+}
+.contact-section .contact-content .fa_address{
+	background-image: url(../images/fa/address.png);
+}
+.contact-section .contact-content .fa_email{
+	background-image: url(../images/fa/email2.png);
+	background-size: 46px 36px;
+}
+.contact-section .contact-content p{
+	font-size: 18px;
+	line-height: 42px;
+}

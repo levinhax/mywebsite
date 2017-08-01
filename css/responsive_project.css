@@ -1,0 +1,55 @@
+@media screen and (min-width: 750px) and (max-width: 960px) {
+	/*====================== Project Section ========================*/
+
+.project_content{
+	width: 96%;
+	padding-left: 4%;
+}
+.project_content .item{
+	width: 46%;
+	height: 300px;
+}
+.project_content .item-img{
+	height: 260px;
+}
+
+.project_content img{
+	height: 260px;
+}
+
+
+}
+
+
+
+
+@media screen and (max-width: 750px) {
+
+/*====================== Project Section ========================*/
+.project_content{
+	width: 100%;
+}
+.project_content .item{
+	width: 100%;
+	height: 320px;
+}
+.project_content .item-img{
+	width:100%;
+	height: 280px;
+}
+
+.project_content img{
+	width:100%;
+	height: 280px;
+}
+
+.project_content .item:hover img{
+	transform: scale(1.1);
+}
+.project_content .item:hover .item_caption p{
+	color: #49C9DE;
+}
+
+
+
+}

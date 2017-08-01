@@ -1,0 +1,88 @@
+@media screen and (max-width: 750px){
+
+/*================================= resume item =======================*/
+.resume_item h3{
+	font-size: 18px;
+}
+
+
+/*======================== personal data =====================================*/
+
+.personal_data table th{
+	font-size: 16px;
+	padding: 9px 56px 9px 6px;
+}
+.personal_data table td{
+	font-size: 16px;
+	padding: 9px 56px 9px 6px;
+}
+
+/*============================= skills ===============================*/
+.skills .item_content ul{
+	width: 60%;
+	margin: 0 auto;
+}
+.skills .item_content span{
+	padding:0 6px;
+}
+.skills .item_content progress{
+	display: inline-block;
+	margin-top: 3px;
+	float: right;
+}
+
+/*============================= experience ============================ */
+
+.experience .item_content .item_list{
+	width: 100%;
+}
+.experience .item_list span{
+	padding:5px 20px;
+	font-size: 16px;
+}
+.experience .item_list .list_name{
+	font-size: 24px;
+	padding: 5px 14px;
+}
+ 
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 490px){
+
+
+/*============================= skills ===============================*/
+.skills .item_content ul{
+	width: 80%;
+	margin: 0 auto;
+}
+.skills .item_content span{
+	padding:0 6px;
+}
+.skills .item_content progress{
+	display: inline-block;
+	margin-top: 3px;
+	float: right;
+}
+ 
+
+/*============================= experience ============================ */
+
+.experience .item_list span{
+	padding:5px 10px;
+	font-size: 14px;
+}
+.experience .item_list .list_name{
+	font-size: 16px;
+	padding: 5px 8px;
+}
+
+
+
+
+}

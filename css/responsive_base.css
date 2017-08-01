@@ -1,0 +1,80 @@
+
+@media screen and (max-width: 750px) {
+	/*导航栏部分*/
+/*menu button*/
+#menu-button{
+	display: block;
+}
+/*menu list*/
+#menu-list{
+	width:100%;
+	height: auto;
+	margin:-1px auto 0;
+	border-top: 1px solid #444;
+	border-bottom: 1px solid #101010;
+	box-sizing: border-box;
+}
+#menu-list li{
+	display: block;
+	width: 100%;
+}
+#menu-list li a{
+	width:100%;
+	height: 36px;
+	text-align: center;
+	background-color: #202020;
+	line-height: 36px;
+	transition: color 0.2s ease-in;
+}
+#menu-list li a:hover{
+	color:#fff;
+}
+#menu-list li.active a{
+	background-color: #000;
+}
+
+
+/*footer content*/
+
+footer .contact_info{
+	width: 196px;
+	height: 40px;
+	margin: 0 auto;
+	padding-left: 36px;
+}
+footer .contact_info .list{
+	margin-right: 30px;
+}
+
+
+footer .contact_info2{
+	width: 80%;
+	margin: 18px auto;
+	font-size: 14px;
+}
+footer .contact_info2 div{
+	display: block;
+	width:100%;
+	padding: 3px 0px;
+	text-align: center;
+}
+
+footer .footer-copyright{
+	width:100%;
+	height: 60px;
+	line-height: 60px;
+	margin-top: 24px;
+	background-color: #333;
+	color: rgba(255,255,255,0.4);
+	text-align: center;
+}
+
+
+
+}
+
+
+
+
+
+

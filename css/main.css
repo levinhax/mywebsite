@@ -1,0 +1,334 @@
+/* =================== Home Section =========================== */
+.home-section{
+	width:100%;
+	height: 100%;
+}
+.home-section h2{
+	color: #fff;
+	font-size: 42px;
+	font-weight: 500;
+	text-align: center;
+	padding-top: 310px;
+	/*line-height: 650px;*/
+}
+.home-section p{
+	width:180px;
+	height: 32px;
+	margin: 32px auto 220px;
+}
+.home-section p a{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+}
+.home-section p .fav-github{
+	float: left;
+	background-image: url(../images/favicon-github.png);
+	background-repeat: no-repeat;
+	background-size: 32px 32px;
+}
+.home-section p .fav-jianshu{
+	float: right;
+	background-image: url(../images/favicon-jianshu.png);
+	background-repeat: no-repeat;
+	background-size: 32px 32px;
+}
+
+/*====================== Introduce Section =========================*/
+.intro-section{
+	width:100%;
+	height: auto;
+	background-color: #002839;
+	padding-bottom: 105px;
+}
+.intro-section h2{
+	color: #49C9DE;
+	font-size: 32px;
+	font-weight: 500;
+	text-align: center;
+	padding-top: 60px;
+}
+.intro-content img{
+	display: block;
+	width:140px;
+	height: 140px;
+	border-radius: 50% 50%;
+	box-sizing: border-box;
+	box-shadow: none;
+	margin: 50px auto;
+}
+.intro-content p{
+	color:#fff;
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 26px;
+	text-align: center;
+}
+.intro-content .more{
+	width: 260px;
+	margin: 30px auto 0px;
+	position: relative;
+}
+.intro-content .more_a{
+	position: absolute;
+	left: 0;
+	top:0;
+}
+.intro-content .more_p{
+	position: absolute;
+	right:0;
+	top:0;
+}
+.intro-content .more a{
+	display: inline-block;
+	width:115px;
+	height: 48px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 48px;
+	box-sizing: border-box;
+	border:1px solid rgba(255,255,255,0.65);
+	border-radius: 22px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+.intro-content .more a:after{
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: 0;
+    width: 0;
+    height: 48px;
+    border-radius: 22px;
+    background-color: #49C9DE;
+    z-index: -1;
+    transition: all 0.4s ease-in-out;
+}
+.intro-content .more_a:hover a:after{
+	width:115px;
+}
+.intro-content .more_p:hover a:after{
+	width:115px;
+}
+
+/*==================== Ability Section =======================*/
+.ability-section{
+	width:100%;
+	height: 320px;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: relative;
+}
+.ability-section .section1{
+	position: relative;
+	top:0;
+	left:0;
+}
+.ability-section .section2{
+	position: relative;
+	top:0;
+	left:25%;
+}
+.ability-section .section3{
+	position: relative;
+	top:0;
+	left:50%;
+}
+.ability-section .section4{
+	position: relative;
+	top:0;
+	left:75%;
+}
+.ability-section .item{
+	width:25%;
+	height: 400px;
+	background-color: transparent;
+	box-sizing: border-box;
+	overflow: hidden;
+	position: absolute;
+	top:0;
+	transition: all 0.6s ease-in;
+}
+
+.ability-section .icon{
+	width:100%;
+	height: 200px;
+	border:1px solid transparent;
+	
+}
+.ability-section .icon img{
+	display: block;
+	width: 65px;
+	height: auto;
+	margin: 128px auto 0;
+}
+.ability-section h3{
+	font-size: 24px;
+	color:#f6f7ff;
+	font-weight: 500;
+	text-align: center;
+	transition: content 0.6s ease;
+}
+.ability-section p{
+	color: #33CCCC;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 22px;
+	opacity: 0;
+	padding-top: 10px;
+	text-align: center;
+	transition: all 0.6s ease;
+}
+.ability-section .item:hover{
+	background-color: rgba(0,0,0,0.8);
+}
+
+.ability-section .item:hover{
+	top: -60px;
+}
+.ability-section .item:hover h3{
+	color: #33CCCC;
+}
+.ability-section .item:hover p{
+	opacity: 1;
+}
+
+/*====================== Project Section ========================*/
+.project-section{
+	width:100%;
+	height: auto;
+	background-color: #002839;	
+	padding-bottom: 60px;
+}
+.project-section .project-title h2{
+	/*text-transform: uppercase;    将小写字母转化为大写*/
+	color: #49C9DE;
+	font-size: 36px;
+	font-weight: 400;
+	padding-top: 86px;
+	text-align: center;
+}
+.project-section .project-title p{
+	color:#f6f7ff;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 28px;
+}
+.project-section .project-item{
+	width: 86%;
+	box-sizing: border-box;
+	margin: 42px auto 60px;
+}
+.project-section .project-item .item{
+	display: inline-block;
+	width: 24%;
+	height: 320px;
+	background-color: transparent;
+	overflow: hidden;
+	position: relative;
+	top: 0;
+	margin-right: 5px;
+	transition: all 0.6s ease-in-out;
+}
+.project-section .item-img{
+	width:100%;
+	height: 280px;
+	z-index: 1;
+	overflow: hidden;
+}
+
+.project-section .project-item img{
+	width:100%;
+	height: 280px;
+	transform: scale(1);
+	transition: all 0.5s ease;
+}
+.project-section .item a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.8);
+	opacity: 0;
+	position: absolute;
+	top:0;
+	transition: all 0.4s ease;
+}
+.project-section .item i{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background-image: url(../images/fa/link.png);
+	background-size: 40px 40px;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 40%;
+	left:48%;
+	transition: all 0.4s ease;
+}
+.project-section .item_caption{
+	display: inline-block;
+	width:100%;
+	height: 50px;
+	background-color: #f6f7ff; 
+}
+.project-section .item_caption p{
+	font-size: 14px;
+	color: #101010;
+	text-align: center;
+	line-height: 50px;
+	transition: all 0.6s ease;
+}
+
+.project-section .project-item .item:hover a{
+	opacity: 0.8;
+}
+.project-section .project-item .item:hover img{
+	transform: scale(1.1);
+}
+.project-section .project-item .item:hover .item_caption p{
+	color: #49C9DE;
+}
+
+.project-section .more{
+	width:120px;
+	margin: 30px auto 0px;
+}
+
+.project-section .more a{
+	display: inline-block;
+	width:115px;
+	height: 48px;
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	line-height: 48px;
+	box-sizing: border-box;
+	border:1px solid rgba(255,255,255,0.65);
+	border-radius: 22px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+.project-section .more a:after{
+    content: "";
+    position: absolute;
+    left: -1px;
+    top: 0;
+    width: 0;
+    height: 48px;
+    border-radius: 22px;
+    background-color: #49C9DE;
+    z-index: -1;
+    transition: all 0.4s ease-in-out;
+}
+.project-section .more:hover a:after{
+	width:115px;
+}
+
+
+
+
+
